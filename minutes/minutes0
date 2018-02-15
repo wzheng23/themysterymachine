@@ -1,0 +1,31 @@
+
+
+Meeting date and time:
+02/15/18 @ 2:00pm - 3:00pm
+
+Meeting attendance:
+Nate Bud - present
+Timothy Wu - present
+Ron Davis - present
+
+Summary:
+We discussed what will be required for the prototype submission, the version of Unity we'll be using, 
+and how the minutes will be coordinated. We talked about how we will implement the HUD and the damage that the enemies will
+take vs the players. We talked about putting in a health system. Discussed how enemies will damage the player and our main menu.
+
+List explicitly and in detail what each individual team member accomplished since the last meeting:
+Given this is the first meeting, here is what we have done so far. Nate created the MVP, additional features, and user story. 
+Nate also created the basic shooting mechanics and the damage. Ronald created the team roles, the repository, 
+and the gitter badge. Timothy helped with ideas and brainstorming in all of the things we have done. 
+
+
+List explicitly and in detail what each individual team member will accomplish before the next meeting. 
+All team members must have at least 1 task listed here and each task must have a GitHub issue associated 
+with it in the project repository
+
+Nate Bud - Will add an ammo capacity to the weapons create a health system. 
+
+Timothy Wu - Will add more functionaility to the map. Implement a quit function.
+
+Ron Davis - will implement the HUD, ammo counter display, items display, healthbar, and a crosshair. 
+Will create the technical documents. 
