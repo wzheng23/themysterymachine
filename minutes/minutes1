@@ -1,0 +1,29 @@
+Meeting date and time:
+02/22/18 @ 2:00pm - 3:00pm
+
+Meeting attendance:
+Nate Bud - present
+Timothy Wu - present
+Ron Davis - present
+
+Summary:
+We discussed the requirements for the prototype. We also discussed restructuring the Github to better include the unity project. 
+Also, the youtube video being finished was discussed. We discussed what we would do for the alpha release and who would work on what.
+Also, animations were talked about and how we would implement that. We talked about adding minimal AI and finishing the health system.
+We discussed exactly how we would implement the swapping. 
+
+List explicitly and in detail what each individual team member accomplished since the last meeting:
+Nate - Added the current build to the readme. Reviewed the minutes and approved the pull request.
+Timothy - Worked on the main menu. Added the ability to pause and unpause the game.
+Ron - worked on aspects of the HUD. Added a health slider and ammo capacity. Also, worked on implementing a static cross hair. 
+
+
+List explicitly and in detail what each individual team member will accomplish before the next meeting. 
+All team members must have at least 1 task listed here and each task must have a GitHub issue associated 
+with it in the project repository.
+
+Nate Bud - Work on the swapping mechanic where the player will switch to the enemies it damages throughout the gameplay.
+
+Timothy Wu - Work on the test level. Will polish up the menu. 
+
+Ron Davis - Will implement the ammo count on the HUD and the health system. 
