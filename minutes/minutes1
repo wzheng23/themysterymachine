@@ -22,8 +22,9 @@ List explicitly and in detail what each individual team member will accomplish b
 All team members must have at least 1 task listed here and each task must have a GitHub issue associated 
 with it in the project repository.
 
-Nate Bud - Work on the swapping mechanic where the player will switch to the enemies it damages throughout the gameplay.
+Nate Bud - Work on implementing more guns and the gun mechanics.
 
-Timothy Wu - Work on the test level. Will polish up the menu. 
+Timothy Wu - Work on the test level. Will polish up the menu. Will work on the swapping mechanic by switching to enemy npc bodies after
+taking half of their health.
 
-Ron Davis - Will implement the ammo count on the HUD and the health system. 
+Ron Davis - Will implement the ammo count on the HUD and the health system. Will work on enemy A.I. adding movement raycast shooting, and a damage modifier
