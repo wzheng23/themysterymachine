@@ -23,7 +23,7 @@ User Story:
  Running the game:
  
 
-Current build: https://drive.google.com/open?id=194lPzBxm8_NTMye1UY4-HZxaQGdqT5xp
+Current build: https://drive.google.com/drive/folders/1ZUck_ciU-4KahBFvnBAJ3uFwGq3wmao4
 
 Youtube video: https://www.youtube.com/watch?v=IgAgzt-eFqw&feature=youtu.be
 
