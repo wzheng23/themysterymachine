@@ -294,6 +294,9 @@
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\IDamageable.cs" />
     <Compile Include="Assets\Scripts\RayCastShoot.cs" />
+    <Compile Include="Assets\SMC Pack 1\Demo\Files\V_SMC_Camera.cs" />
+    <Compile Include="Assets\SMC Pack 1\Demo\Files\V_SMC_Handler.cs" />
+    <Compile Include="Assets\SMC Pack 1\Demo\Files\V_Text.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
