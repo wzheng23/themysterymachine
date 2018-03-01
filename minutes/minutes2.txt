@@ -1,0 +1,24 @@
+Meeting date and time:
+3/1/18 @ 2:00pm - 3:00pm
+
+Meeting attendance:
+Nate Bud - present
+Timothy Wu - present
+Ron Davis - unexcused absence
+
+Summary:
+Talked about implementing enemy AI for the alpha release. 
+
+List explicitly and in detail what each individual team member accomplished since the last meeting:
+Nate - Polished up gun mechanics
+Timothy - Swapping mechanic somewhat working
+Ron - N/A
+
+
+List explicitly and in detail what each individual team member will accomplish before the next meeting. 
+All team members must have at least 1 task listed here and each task must have a GitHub issue associated 
+with it in the project repository.
+
+Nate Bud - Finish gun mechanics and adding a variety of weapons, weapons sounds and firing effects as secondary.
+Timothy Wu - Start looking at enemy AI and create a new test level.
+Ron Davis - N/A
