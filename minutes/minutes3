@@ -1,0 +1,27 @@
+Meeting date and time:
+03/08/18 @ 2:00pm - 3:00pm
+
+Meeting attendance:
+Nate Bud - present
+Timothy Wu - present
+Ron Davis - present
+
+Summary: 
+We discussed what we needed for the alpha release. We talked about how we could upload the game to an existing website
+for release. We talked about issues for the prefab and the need for having a completed level for release. We discussed issues
+with the raycast shooting from the person instead of the gun. We uploaded a new version of the build that fixed some minor issues. 
+We discussed having to fix the reload glitch. We talk about creating a bugs list. We talked about the player not yet having 
+fall damage and how that works with the rooftop level. 
+
+List explicitly and in detail what each individual team member accomplished since the last meeting:
+Nate - Added the ability to change weapons, reload, and a spread on the bullets.
+Timothy - put in a basic swapping mechanic for when the player "kills" another enemy. 
+Ron - Worked a little bit on implementing the enemy movement and learned about Game A.I in general.
+
+List explicitly and in detail what each individual team member will accomplish before the next meeting. 
+Nate Bud - will improve the swapping mechanic so you get the gun of the enemy you just shot. 
+
+Timothy Wu - will make a rooftop map. 
+
+Ron Davis - Will reupload the HUD so it is fully functional with the health system and ammo count.
+Will work on completing enemy movement. 
