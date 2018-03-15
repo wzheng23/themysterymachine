@@ -1,0 +1,26 @@
+Meeting date and time:
+03/15/18 @ 2:00pm - 3:00pm
+
+Meeting attendance:
+Nate Bud - present
+Timothy Wu - present
+Ron Davis - present
+
+Summary: 
+We discussed using a character creator for Unity called Mixamo. We talked about the level we would create for the
+alpha release and the deployment method. We fixed a few bugs including an issue with the pause feature of the game
+and the game time. We talked about if we would seperate enemy and player health into two classes or would we
+abstract one class for both. We updated the new build that fixes the bug. We talked about submitting the new video
+and what it would include. 
+
+List explicitly and in detail what each individual team member accomplished since the last meeting:
+Nate - helped fix a bug for pause menu. made it so enemies wouldn't float when you shot them. Still working on 
+swapping mechanic 
+Timothy - fixed a bug for the pause menu. Worked on a map level
+Ron - Improved the position and look of the HUD. Integrated the functionality of the player health system with the
+health slider. 
+
+List explicitly and in detail what each individual team member will accomplish before the next meeting. 
+Nate Bud -  Finish work on swapping mechanic.
+Timothy Wu - Finish working on a map level
+Ron Davis - Will setup the ability for an enemy to attack and setup a new enemy weapons script
