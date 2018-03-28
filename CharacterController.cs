@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+    //handes all character movement, takes in input from keyboard
 public class CharacterController : MonoBehaviour {
 
 	private float x;
@@ -11,13 +12,11 @@ public class CharacterController : MonoBehaviour {
 	private bool isGrounded;
     private bool isCollide;
 
-	private float togr;
-
 	public float speed = 10.0F;
 	public float jumpf = 300.0F;
 	public float gravity = -1.0F; 
 
-	public Rigidbody rb;
+	public Rigidbody rb;    //handles all physics
 
 
 	// Use this for initialization
@@ -35,16 +34,21 @@ public class CharacterController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+            //jump
         if (Input.GetKeyDown("space") && (isGrounded && isCollide))
         {
+                //jump force is only added when the player is on the ground
             rb.AddForce(transform.up * jumpf);
         }
+            //pause
         if (Input.GetKeyDown("escape"))
         {
+                //enables cursor while paused
             Cursor.lockState = CursorLockMode.None;
         }
 	}
 
+        //Fixed update is called every fixed framerate, typically used for all code related to rigidbody
 	void FixedUpdate (){
 		float translation = Input.GetAxis ("Vertical") * speed;
 		float straffe = Input.GetAxis ("Horizontal") * speed;
@@ -53,6 +57,7 @@ public class CharacterController : MonoBehaviour {
 
 		transform.Translate (straffe, 0, translation);
 
+            //Raycast object is used to detect whether the player is on the ground
         Vector3 jumpPoint = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         RaycastHit hit;
         Ray grounder = new Ray(jumpPoint, Vector3.down);
@@ -71,11 +76,12 @@ public class CharacterController : MonoBehaviour {
         }
 
     }
-
+        //sets isCollide to true if player object is in contact with any level geometry
     void OnCollisionStay(Collision coll){
 		isCollide = true;
 	}
-	void OnCollisionExit(Collision coll){
+        //sets isCollide to false if player object is not in contact with any level geometry
+    void OnCollisionExit(Collision coll){
         isCollide = false;
 	}
 		
