@@ -22,13 +22,11 @@ User Story:
  As the user I am looking to be entertained. The game I play should be somewhat challenging yet not overwhelming. All mechanics
  should be easy to understand. Menus should be unobtrusive. Ultimately the game should be fun to play. I am able to shoot at the enemy and possess their bodies after I eliminate them. 
  
- Running the game: Download the ZIP file, extract all the files into a folder, and run SwapShooter v0.1.0.exe
+ Running the game: Download everything in Runnable folder, extract all the files into a folder, and run v0.2.0.exe
  
 
-Current build: https://drive.google.com/drive/folders/1ZUck_ciU-4KahBFvnBAJ3uFwGq3wmao4
+Current build: https://drive.google.com/drive/u/0/folders/1ga7k86Ncztj6EieMOmIpFzaaQDPtB8Je
 
-Youtube video: https://www.youtube.com/watch?v=IgAgzt-eFqw&feature=youtu.be
-
-Youtube video: https://www.youtube.com/watch?v=Oz104c2xTrw&feature=youtu.be
+Youtube Video:
 
 `[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/The-Mystery-Machine1/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
