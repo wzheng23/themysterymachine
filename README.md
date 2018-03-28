@@ -20,7 +20,7 @@ Additions:
 User Story:
 
  As the user I am looking to be entertained. The game I play should be somewhat challenging yet not overwhelming. All mechanics
- should be easy to understand. Menus should be unobtrusive. Ultimately the game should be fun to play. I am able to shoot at the enemy and possess their bodies after I eliminate them. The goal is to get the highest score possible. 
+ should be easy to understand. Menus should be unobtrusive. Ultimately the game should be fun to play. I am able to shoot at the enemy and possess their bodies after I eliminate them. 
  
  Running the game: Download the ZIP file, extract all the files into a folder, and run SwapShooter v0.1.0.exe
  
