@@ -1,0 +1,28 @@
+Meeting date and time:
+03/29/18 @ 2:00pm - 3:00pm
+
+Meeting attendance:
+Nate Bud - present
+Timothy Wu - present
+Ron Davis - present
+
+Summary: 
+We discussed what we need done for this week. We discussed that we need to improve on enemy AI. We discussed 
+how we would have the enemies look. We discussed where we would place more weapon drops. We talked about setting 
+up enemy field of view and movement of enemies. We need to set up a fall damage and enemy shooting. We talked 
+about player physics and jumping issues in certain parts of the game. We need to be able to get ammo capacity 
+and get weapon being used from enemy shooting script to work with swapping mechanics. We talked about the need
+for a game over script for when the player dies. 
+
+List explicitly and in detail what each individual team member accomplished since the last meeting:
+Nate - Finished work on the swapping mechanic. Worked on weapons mechanics. 
+Timothy - Worked on level design and weapon mechanics.
+Ron - Finished work on player health. Worked on enemy shooting mechanics.
+
+List explicitly and in detail what each individual team member will accomplish before the next meeting. 
+Nate Bud - Will finish the swapping mechanics with enemy shooting. Setting up fall damage based on time
+Timothy Wu - Will work on field of view for enemies and how the interact with the player at certain
+distances. 
+Ron Davis - Work on adding ammo capacity to enemy shooting and get the weapon being used. Set up 
+a game over script for when the player dies. 
+
