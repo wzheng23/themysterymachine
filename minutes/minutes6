@@ -1,0 +1,25 @@
+Meeting date and time:
+02/22/18 @ 2:00pm - 3:00pm
+
+Meeting attendance:
+Nate Bud - present
+Timothy Wu - present
+Ron Davis - N/A
+
+Summary:
+We discussed what we worked on, talked about what we are going to accomplish for next week.
+
+List explicitly and in detail what each individual team member accomplished since the last meeting:
+Nate - Implemented fall damage, enhanced jumping feature.
+Timothy - Created ability for enemy to detect player.
+Ron - N/A
+
+List explicitly and in detail what each individual team member will accomplish before the next meeting. 
+All team members must have at least 1 task listed here and each task must have a GitHub issue associated 
+with it in the project repository.
+
+Nate Bud - Touch up swapping mechanic, create the second level.
+
+Timothy Wu - Work on the Game Over screen and all the possible ways to reach it, adding some sounds.
+
+Ron Davis - Supposed to be working on damage indicator and enemy weapon shooting.
