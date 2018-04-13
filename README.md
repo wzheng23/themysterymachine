@@ -29,8 +29,8 @@ User Story:
  Running the game: Download everything in Runnable folder, extract all the files into a folder, and run v0.2.0.exe
  
 
-Current build: https://drive.google.com/open?id=1j_zxQX4TyiLTJkphot1SR0RZzRikqueU
+Current build: https://drive.google.com/open?id=15lvYAxlOVIL975HNi_AyEtWGNqyAQ8RU
 
-Youtube Video: https://youtu.be/Bn_rQrmtN5E
+Youtube Video: https://www.youtube.com/watch?v=jhSFkiyipaE&feature=youtu.be
 
 `[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/The-Mystery-Machine1/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
