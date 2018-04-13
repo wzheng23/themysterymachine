@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-    /*Inherits IDamageable interface*/
 public class EnemyHealth : MonoBehaviour, IDamageable {
 
-    public int startingHealth = 20;
-    public int threshold = 10;
+    public int startingHealth = 50;
+    public int threshold = 25;
 
-    private int currentHealth;
+    public int currentHealth;
 
     // Use this for initialization
     void Start()
@@ -19,7 +18,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable {
     public void Damage(int damage, Vector3 hitPoint)
     {
         currentHealth -= damage;
-        if (currentHealth <= 0)     //kills enemy if health reaches zero
+        if (currentHealth <= 0)
         {
             Dead();
         }
@@ -45,7 +44,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable {
         threshold = i;
     }
 	
-    public void Dead()      //Currently Dead, just disables the enemy object
+    public void Dead()
     {
         gameObject.SetActive(false);
     }
