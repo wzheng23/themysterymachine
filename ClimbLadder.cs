@@ -1,38 +1,38 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-    
-    /*Script allows player to climb ladders*/
+
 public class ClimbLadder : MonoBehaviour {
 
     private CharacterController chController;
     private Rigidbody playerBody;
     public Transform chPos;
     public bool canClimb = false;
-    private float speed = .25f;
+    private float speed = .1f;
 
-        //called upon initialization
     void Start()
     {
         chController = gameObject.GetComponent<CharacterController>();
         playerBody = gameObject.GetComponent<Rigidbody>();
+        chPos = playerBody.transform;
     }
-        
-        //When player enters predefined area
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Ladder")
         {
-            playerBody.useGravity = false;
+            chController.enabled = false;
+            playerBody.isKinematic = true;
             canClimb = true;
         }
     }
-        //When player leaves predefined area
+
     void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Ladder")
         {
-            playerBody.useGravity = true;
+            chController.enabled = true;
+            playerBody.isKinematic = false;
             canClimb = false;
         }
     }
@@ -41,14 +41,13 @@ public class ClimbLadder : MonoBehaviour {
     {
         if (canClimb)
         {
-                //allows players to move vertically up or down when on ladder, removes ability to move forward or backward
             if (Input.GetKey("w"))
             {
-                chPos.transform.position += Vector3.up * speed;
+                chPos.transform.Translate(Vector3.up * speed);
             }
             if (Input.GetKey("s"))
             {
-                chPos.transform.position += Vector3.down * speed;
+                chPos.transform.Translate(Vector3.down * speed);
             }
         }
     }
