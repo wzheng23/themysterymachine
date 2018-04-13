@@ -33,4 +33,6 @@ Current build: https://drive.google.com/open?id=15lvYAxlOVIL975HNi_AyEtWGNqyAQ8R
 
 Youtube Video: https://www.youtube.com/watch?v=jhSFkiyipaE&feature=youtu.be
 
+Landing Page:
+
 `[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/The-Mystery-Machine1/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
