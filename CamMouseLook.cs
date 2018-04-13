@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-    //handles all mouse input, rotates Camera object attached to Player
 public class CamMouseLook : MonoBehaviour {
 
 	Vector2 mouseLook;

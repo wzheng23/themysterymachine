@@ -46,7 +46,9 @@ public class W_Makarov : MonoBehaviour, IShootable {
     private SwapManager sm;         //handles possession
     private WeaponManager wm;       //handles weapon swapping
 
-        //Called when script is enabled
+    private AudioSource[] source; //Added ArrayList of AudioSources, make sure to add two Audio Sources into a weapon + first one has to be the fire sound, second is reload
+
+    //Called when script is enabled
     void Start()
     {
         lineRenderer = GetComponent<LineRenderer>();
@@ -54,6 +56,7 @@ public class W_Makarov : MonoBehaviour, IShootable {
         player = GameObject.Find("Player");
         sm = player.GetComponent<SwapManager>();
         wm = player.GetComponent<WeaponManager>();
+        source = GetComponents<AudioSource>();          //Added line here
     }
 
     // Update is called once per frame
@@ -188,6 +191,8 @@ public class W_Makarov : MonoBehaviour, IShootable {
         {
             reloading = true;
             transform.Translate(0, 0, 2);   //temporary, hides weapon while reloading
+
+            source[1].Play();                   //Tells the second Audio Source to play, which is the reload sound
             if (clip > cur_reserve)
             {                   
                 cur_clip = cur_reserve;
@@ -195,8 +200,8 @@ public class W_Makarov : MonoBehaviour, IShootable {
             }
             else
             {
+                cur_reserve = cur_reserve - clip + cur_clip;
                 cur_clip = clip;
-                cur_reserve = cur_reserve - clip;
             }
         }
     }
@@ -207,6 +212,7 @@ public class W_Makarov : MonoBehaviour, IShootable {
         lineRenderer.enabled = true;
         yield return shotLength;
         lineRenderer.enabled = false;
+        source[0].Play();                   //Tells the first Audio Source to play, which is the fire sound
     }
 
 
