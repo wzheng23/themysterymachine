@@ -26,13 +26,12 @@ User Story:
  As the user I am looking to be entertained. The game I play should be somewhat challenging yet not overwhelming. All mechanics
  should be easy to understand. Menus should be unobtrusive. Ultimately the game should be fun to play. I am able to shoot at the enemy and possess their bodies after I eliminate them. 
  
- Running the game: Download everything in Runnable folder, extract all the files into a folder, and run v0.2.0.exe
  
 
 Current build: https://drive.google.com/open?id=15lvYAxlOVIL975HNi_AyEtWGNqyAQ8RU
 
 Youtube Video: https://www.youtube.com/watch?v=jhSFkiyipaE&feature=youtu.be
 
-Landing Page:
+Landing Page: mysterymachine.club
 
 `[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/The-Mystery-Machine1/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
