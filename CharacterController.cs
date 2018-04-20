@@ -53,18 +53,23 @@ public class CharacterController : MonoBehaviour {
         {
             Cursor.lockState = CursorLockMode.None;
         }
+		
+
 	}
 
 	void FixedUpdate (){
-		float translation = Input.GetAxis ("Vertical") * speed;
-		float straffe = Input.GetAxis ("Horizontal") * speed;
+		float translation = Input.GetAxis("Vertical") * speed;
+		float straffe = Input.GetAxis("Horizontal") * speed;
 		translation *= Time.deltaTime;
 		straffe *= Time.deltaTime;
 
-		transform.Translate (straffe, 0, translation);
+		
+		Vector3 movement = new Vector3(straffe, 0, translation);
+		movement = transform.TransformDirection(movement);
+		rb.MovePosition(rb.position + movement);
 
-        Grounded();
-        FallDamage();
+        	Grounded();
+        	FallDamage();
         
     }
 
